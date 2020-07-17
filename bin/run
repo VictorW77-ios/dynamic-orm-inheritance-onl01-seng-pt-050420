@@ -13,3 +13,5 @@ song.save
 puts Song.find_by_name("Hello")
 
 # DB[:conn].execute("SELECT * FROM songs")
+# The #initialize, #save and #find_by_name methods 
+# used by Song here were inherited from InteractiveRecord
